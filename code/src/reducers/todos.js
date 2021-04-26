@@ -100,6 +100,7 @@ export const todos = createSlice({
         isDone: false,
         text: action.payload
       }
+      // console.log(state.items)
       state.items.push(newTask)
     },
 
